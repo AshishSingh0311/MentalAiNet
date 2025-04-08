@@ -8,3 +8,4 @@ joblib
 plotly
 sqlalchemy
 fpdf
+json2html
