@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: mentalainet
+    env: python
+    buildCommand: ""
+    startCommand: streamlit run simplified_app.py --server.port 10000
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10
+    plan: free
